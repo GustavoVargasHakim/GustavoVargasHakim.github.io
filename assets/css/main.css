@@ -23,6 +23,7 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
+	color: #1f1815;
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
@@ -122,8 +123,9 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #787878;
-		font-weight: 400;
+		#color: #787878;
+		font-weight: 600;
+		color: #1f1815;
 	}
 
 	em, i {
@@ -149,31 +151,37 @@ input, select, textarea {
 	h1 {
 		font-size: 2em;
 		line-height: 1.5em;
+		color: #1f1815;
 	}
 
 	h2 {
 		font-size: 1.5em;
 		line-height: 1.5em;
+		color: #1f1815;
 	}
 
 	h3 {
 		font-size: 1.25em;
 		line-height: 1.5em;
+		color: #1f1815;
 	}
 
 	h4 {
 		font-size: 1.1em;
 		line-height: 1.5em;
+		color: #1f1815;
 	}
 
 	h5 {
 		font-size: 0.9em;
 		line-height: 1.5em;
+		color: #1f1815;
 	}
 
 	h6 {
 		font-size: 0.7em;
 		line-height: 1.5em;
+		color: #1f1815;
 	}
 
 	sub {
@@ -1777,7 +1785,7 @@ input, select, textarea {
 	}
 
 	header h3 + p {
-		font-size: 1.1em;
+		font-size: 1.5em;
 		margin-top: -0.8em;
 		line-height: 1.5em;
 	}
@@ -1792,6 +1800,7 @@ input, select, textarea {
 
 	header.major h2 {
 		font-size: 2em;
+		color: #1f1815;
 	}
 
 /* Form */
@@ -2672,7 +2681,7 @@ input, select, textarea {
 
 		#footer .icons {
 			justify-content: flex-start; /* Align icons to the left, or you can change to flex-end for right alignment */
-			margin-left: 390px; /* Move the icons right by 50px or adjust as needed */
+			margin-left: 280px; /* Move the icons right by 50px or adjust as needed */
 		}
 
 		#footer .icons a {
@@ -3170,6 +3179,7 @@ input, select, textarea {
 
 			header.major h2 {
 				font-size: 1.35em;
+				color: #1f1815;
 			}
 
 		/* List */
