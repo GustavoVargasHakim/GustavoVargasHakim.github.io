@@ -2681,13 +2681,13 @@ input, select, textarea {
 
 		#footer .icons {
 			justify-content: flex-start; /* Align icons to the left, or you can change to flex-end for right alignment */
-			margin-left: 280px; /* Move the icons right by 50px or adjust as needed */
+			margin-left: 250px; /* Move the icons right by 50px or adjust as needed */
 		}
 
 		#footer .icons a {
 			color: rgba(255, 255, 255, 0.4);
 			display: inline-block; /* Ensures icons are displayed inline */
-			font-size: 3em;
+			font-size: 2em;
 		}
 
 	#footer .copyright {
