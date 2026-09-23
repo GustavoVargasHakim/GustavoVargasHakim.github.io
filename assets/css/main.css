@@ -3257,3 +3257,16 @@ input, select, textarea {
 			}
 
 	}
+
+/* Fix: keep the footer icon bar from covering page content (e.g. the "My CV" button) */
+#footer .icons {
+	width: auto;
+}
+
+@media screen and (max-width: 980px) {
+	#footer .icons {
+		position: static;
+		margin: 0 0 1em 0;
+		justify-content: center;
+	}
+}
