@@ -3258,15 +3258,33 @@ input, select, textarea {
 
 	}
 
-/* Fix: keep the footer icon bar from covering page content (e.g. the "My CV" button) */
+/* Fix: keep the footer icons inside the left sidebar so they never cover page content */
 #footer .icons {
-	width: auto;
+	left: 0;
+	width: 35%;              /* same width as the sidebar */
+	margin: 0;
+	padding: 0 4em;          /* same side padding as the sidebar */
+	justify-content: flex-end; /* right-aligned, like the sidebar text */
+}
+
+@media screen and (max-width: 1280px) {
+	#footer .icons {
+		width: 30%;          /* the sidebar shrinks to 30% here */
+		padding: 0 3em;
+	}
 }
 
 @media screen and (max-width: 980px) {
 	#footer .icons {
-		position: static;
+		position: static;    /* on small screens, icons sit normally in the footer */
+		width: 100%;
+		padding: 0;
 		margin: 0 0 1em 0;
 		justify-content: center;
 	}
+}
+
+#main {
+	position: relative;
+	z-index: 2;
 }
